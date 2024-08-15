@@ -7,7 +7,7 @@ async function UsersList() {
   return (
     <div className="mt-4">
       {users.length ? (
-        <div>
+        <div className="max-w-lg">
           {users.map((user) => (
             <h4
               className="capitalize text-lg flex justify-between items-center mb-2"

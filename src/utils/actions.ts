@@ -43,7 +43,7 @@ export const fetchUsers = async (): Promise<User[]> => {
   return users
 }
 
-const saveUser = async (user: User): Promise<void> => {
+export const saveUser = async (user: User): Promise<void> => {
   const users = await fetchUsers()
 
   users.push(user)
